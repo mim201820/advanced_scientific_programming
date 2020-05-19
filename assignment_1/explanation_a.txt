@@ -1,1 +1,3 @@
-Some explanations
+no it is not easy to classify good vs bad using only the age and credit_amount columns, because
+as can be seen in the plot, the data points are not separable , if they were separable , meaning two
+separate celuster, then they could be classified easily just by these two columns

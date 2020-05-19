@@ -1,0 +1,4 @@
+the plot shows that none of the purposes is completely separable by the goods and bads. However, for 
+'domestic appliance' & 'repairs' ,we can have the classification with the better approximation, they followed by 
+'used car' which the goods are in the lower part of the plot whereas the bad are located in the higher amount of 
+'credit_amount' axis
