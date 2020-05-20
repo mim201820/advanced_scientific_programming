@@ -1,0 +1,11 @@
+1-
+
+2-about the question 1-a of assignment , should we remove apostrophe from the items of data frame? then use df.astype('category') for the columns that are "object"?
+
+3-in 4-a, at the end the number of "male" = the number of "female" should be equal? for example if we have 310 female and we have to cut the data frame for "male" in oder to have 310 "male" at the end?
+len(df[df['gender']=='male']) == len(df[df['gender']=='female'])
+
+4-could you give an example about the input of the function my_eval in the exercise 3-b
+
+5-shall we perform "preprocessing.StandardScaler()" on the X_train and X_test? in 3-b
+
