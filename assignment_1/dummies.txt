@@ -1,0 +1,10 @@
+What 'pd.get_dummies' does is to perform one-hot encoding, so 'pd.get_dummies' map each categorical column into
+a vector that contains 1,0 showing whether the feature is present or not. 
+Advantages: The reason why we use one-hot encoding ('pd.get_dummies') is because there are a some limited machine learning
+algorithms, for example decision tree that can be learned directly from categorical data with no data transform required.
+However many machine learning algorithms cannot work directly on labeled data, so they required all input variables and 
+output variables to be numeric. Moreover, representing data in the form of dummy variables makes it easier to make decisions
+based on them.
+
+Drawbacks: because the Nr. of the vectors depends on the Nr. of categories for features, as a results this methods generates
+a lot of columns which decelerate the learning considerably if the Nr. of category is very high for the feature
