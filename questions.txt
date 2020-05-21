@@ -1,4 +1,4 @@
-1-
+1-what is the seed (random state) in 3-b
 
 2-about the question 1-a of assignment , should we remove apostrophe from the items of data frame? then use df.astype('category') for the columns that are "object"?
 
@@ -9,3 +9,4 @@ len(df[df['gender']=='male']) == len(df[df['gender']=='female'])
 
 5-shall we perform "preprocessing.StandardScaler()" on the X_train and X_test? in 3-b
 
+6-what does it mean "one relatively mixed" does it mean both of them should be as high as possible?
