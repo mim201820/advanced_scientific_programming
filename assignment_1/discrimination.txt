@@ -1,1 +1,20 @@
-Have not answered yet!!!
+SVMs and decision trees are discriminative because they learn explicit boundaries between classes. 
+SVM is a maximal margin classifier, meaning that it learns a decision boundary that maximizes the distance between 
+samples of the two classes, given a kernel. The distance between a sample and the learned decision boundary can be
+used to make the SVM a "soft" classifier. DTs learn the decision boundary by recursively partitioning the space 
+in a manner that maximizes the information gain (or another criterion).
+
+https://stats.stackexchange.com/questions/12421/generative-vs-discriminative
+
+Now let's talk about the fairness:
+fairness means if we for example swap the colums values as we did in genders "female"-->"male" and "male"-->"female" 
+we expect to receive the same but swaped results.
+
+In SVM , Decision Tree as we can see , when we changed the genders still we get the same result so by using these two 
+methods regardless of the gender it gives the correct result.
+However, in Naive Bayes the results are totatlly different, even we changed the genders and we expected the same reult
+as before, we did not reach the same result by swapping , as I read in the paper 'Learning Fair Naive Bayes Classifiers by
+Discovering and Eliminating Discrimination Patterns',  Naive Bayes is not fair classifier , as a consequence , it needs
+some improvement to make it fair. 
+
+
